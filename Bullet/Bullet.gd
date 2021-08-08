@@ -1,5 +1,6 @@
 extends Node2D
 
+var Enemy = preload("res://Enemy/Enemy.gd")
 
 # Declare member variables here. Examples:
 # var a = 2
@@ -16,3 +17,6 @@ func _process(delta):
 	var move = Vector2()
 	move.x = speed
 	position += move * delta
+
+
+
