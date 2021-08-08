@@ -28,7 +28,7 @@ height = 11.5838
 
 [node name="Player" type="KinematicBody2D"]
 script = ExtResource( 2 )
-speed = 120
+speed = 300
 bullet = ExtResource( 3 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
