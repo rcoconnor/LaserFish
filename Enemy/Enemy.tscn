@@ -28,4 +28,5 @@ rotation = 1.5708
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource( 1 )
 
+[connection signal="visibility_changed" from="CollisionShape2D" to="." method="_on_CollisionShape2D_visibility_changed"]
 [connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]
